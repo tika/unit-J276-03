@@ -1,0 +1,138 @@
+import json
+import random
+from string import ascii_letters
+
+studentsData = json.load(open("sample_students.json"))
+
+names = [
+    "Brunilda Brownlee",
+    "Dionne Tart",
+    "Roseanne Locker",
+    "Berry Branscum",
+    "Eulalia Frates",
+    "Lessie Mcnear",
+    "Karisa Ingham",
+    "Zona Avitia",
+    "Love Levingston",
+    "Louis Dimitri",
+    "Dena Mill",
+    "Chandra Morehouse",
+    "Marx Durfee",
+    "Charleen Oakley",
+    "Zelma Amedee",
+    "Ashlyn Vollmer",
+    "Vera Johanson",
+    "Gilbert Lingerfelt",
+    "Dedra Vegas",
+    "Dakota Mcneese",
+    "Nichol Teel",
+    "Graham Dasher",
+    "Petrina Portillo",
+    "Tarah Kukowski",
+    "Terrence Marsala",
+    "Otto Abrahamson",
+    "Chet Siemers",
+    "Michale Garza",
+    "Josephine Winebarger",
+    "Oswaldo Smoak",
+    "Lien Witherite",
+    "Anastacia Condie",
+    "Leonora Going",
+    "Tifany Surratt",
+    "Ian Body",
+    "Selena Honn",
+    "Deja Matthes",
+    "Henry Hudock",
+    "Samatha Lachermeier",
+    "Norah Brwon",
+    "Ingeborg Hickok",
+    "Coleen Engles",
+    "Shea Jenks",
+    "Keva Spagnoli",
+    "Lorraine Deschamps",
+    "Blanca Fahie",
+    "Bryon Schuette",
+    "Sharee Autrey",
+    "Many Schissler",
+    "Mitsue Baggs"
+]
+
+addresses = [
+    "777 Brockton Avenue, Abington MA 2351",
+    "30 Memorial Drive, Avon MA 2322",
+    "250 Hartford Avenue, Bellingham MA 2019",
+    "700 Oak Street, Brockton MA 2301",
+    "66-4 Parkhurst Rd, Chelmsford MA 1824",
+    "591 Memorial Dr, Chicopee MA 1020",
+    "55 Brooksby Village Way, Danvers MA 1923",
+    "137 Teaticket Hwy, East Falmouth MA 2536",
+    "42 Fairhaven Commons Way, Fairhaven MA 2719",
+    "374 William S Canning Blvd, Fall River MA 2721",
+    "121 Worcester Rd, Framingham MA 1701",
+    "677 Timpany Blvd, Gardner MA 1440",
+    "337 Russell St, Hadley MA 1035",
+    "295 Plymouth Street, Halifax MA 2338",
+    "1775 Washington St, Hanover MA 2339",
+    "280 Washington Street, Hudson MA 1749",
+    "20 Soojian Dr, Leicester MA 1524",
+    "11 Jungle Road, Leominster MA 1453",
+    "301 Massachusetts Ave, Lunenburg MA 1462",
+    "780 Lynnway, Lynn MA 1905",
+    "70 Pleasant Valley Street, Methuen MA 1844",
+    "830 Curran Memorial Hwy, North Adams MA 1247",
+    "1470 S Washington St, North Attleboro MA 2760",
+    "506 State Road, North Dartmouth MA 2747",
+    "742 Main Street, North Oxford MA 1537",
+    "72 Main St, North Reading MA 1864",
+    "200 Otis Street, Northborough MA 1532",
+    "180 North King Street, Northhampton MA 1060",
+    "555 East Main St, Orange MA 1364",
+    "555 Hubbard Ave-Suite 12, Pittsfield MA 1201",
+    "300 Colony Place, Plymouth MA 2360",
+    "301 Falls Blvd, Quincy MA 2169",
+    "36 Paramount Drive, Raynham MA 2767",
+    "450 Highland Ave, Salem MA 1970",
+    "1180 Fall River Avenue, Seekonk MA 2771",
+    "1105 Boston Road, Springfield MA 1119",
+    "100 Charlton Road, Sturbridge MA 1566",
+    "262 Swansea Mall Dr, Swansea MA 2777",
+    "333 Main Street, Tewksbury MA 1876",
+    "550 Providence Hwy, Walpole MA 2081",
+    "352 Palmer Road, Ware MA 1082",
+    "3005 Cranberry Hwy Rt 6 28, Wareham MA 2538",
+    "250 Rt 59, Airmont NY 10901",
+    "141 Washington Ave Extension, Albany NY 12205",
+    "13858 Rt 31 W, Albion NY 14411",
+    "2055 Niagara Falls Blvd, Amherst NY 14228",
+    "101 Sanford Farm Shpg Center, Amsterdam NY 12010",
+    "297 Grant Avenue, Auburn NY 13021",
+    "4133 Veterans Memorial Drive, Batavia NY 14020",
+    "6265 Brockport Spencerport Rd, Brockport NY 14420"
+]
+
+tutorgroups = [
+    "Mr Leeman",
+    "Mrs Staples",
+    "Mr Smith",
+    "Ms Smith",
+    "Mrs Weiner",
+    "Mr Sporn",
+    "Ms Cummings"
+]
+
+for x in range(20):
+    first, last = random.choice(names).split(" ")
+    studentsData["students"].append({
+        "UUID": x,
+        "surname": last,
+        "forename": first,
+        "DOB": [random.randint(1, 28), random.randint(1, 12), random.randint(2000, 2010)],
+        "address": random.choice(addresses),
+        "number": "07" + "".join(str(random.randint(0, 9)) for _ in range(9)),
+        "gender": random.choice(["Male", "Female"]),
+        "group": random.choice(tutorgroups),
+        "email": first[0] + last[0] + "@treeroad.edu"
+    })
+
+with open("sample_students.json", "w") as file_:
+    json.dump(studentsData, file_, indent=4)

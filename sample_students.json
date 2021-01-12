@@ -1,0 +1,334 @@
+{
+    "students": [
+        {
+            "UUID": 0,
+            "surname": "Brownlee",
+            "forename": "Brunilda",
+            "DOB": [
+                20,
+                8,
+                2000
+            ],
+            "address": "777 Brockton Avenue, Abington MA 2351",
+            "number": "07356785823",
+            "gender": "Male",
+            "group": "Mr Leeman",
+            "email": "BB@treeroad.edu"
+        },
+        {
+            "UUID": 1,
+            "surname": "Amedee",
+            "forename": "Zelma",
+            "DOB": [
+                4,
+                3,
+                2004
+            ],
+            "address": "141 Washington Ave Extension, Albany NY 12205",
+            "number": "07687319630",
+            "gender": "Male",
+            "group": "Ms Cummings",
+            "email": "ZA@treeroad.edu"
+        },
+        {
+            "UUID": 2,
+            "surname": "Lachermeier",
+            "forename": "Samatha",
+            "DOB": [
+                26,
+                4,
+                2010
+            ],
+            "address": "3005 Cranberry Hwy Rt 6 28, Wareham MA 2538",
+            "number": "07480751217",
+            "gender": "Female",
+            "group": "Mr Smith",
+            "email": "SL@treeroad.edu"
+        },
+        {
+            "UUID": 3,
+            "surname": "Smoak",
+            "forename": "Oswaldo",
+            "DOB": [
+                13,
+                1,
+                2010
+            ],
+            "address": "301 Massachusetts Ave, Lunenburg MA 1462",
+            "number": "07875829198",
+            "gender": "Male",
+            "group": "Ms Cummings",
+            "email": "OS@treeroad.edu"
+        },
+        {
+            "UUID": 4,
+            "surname": "Abrahamson",
+            "forename": "Otto",
+            "DOB": [
+                26,
+                4,
+                2000
+            ],
+            "address": "297 Grant Avenue, Auburn NY 13021",
+            "number": "07700286952",
+            "gender": "Female",
+            "group": "Mr Sporn",
+            "email": "OA@treeroad.edu"
+        },
+        {
+            "UUID": 5,
+            "surname": "Fahie",
+            "forename": "Blanca",
+            "DOB": [
+                4,
+                12,
+                2007
+            ],
+            "address": "1470 S Washington St, North Attleboro MA 2760",
+            "number": "07560294461",
+            "gender": "Male",
+            "group": "Mr Leeman",
+            "email": "BF@treeroad.edu"
+        },
+        {
+            "UUID": 6,
+            "surname": "Autrey",
+            "forename": "Sharee",
+            "DOB": [
+                25,
+                2,
+                2007
+            ],
+            "address": "141 Washington Ave Extension, Albany NY 12205",
+            "number": "07564557396",
+            "gender": "Male",
+            "group": "Mrs Weiner",
+            "email": "SA@treeroad.edu"
+        },
+        {
+            "UUID": 7,
+            "surname": "Brownlee",
+            "forename": "Brunilda",
+            "DOB": [
+                25,
+                11,
+                2003
+            ],
+            "address": "677 Timpany Blvd, Gardner MA 1440",
+            "number": "07322891802",
+            "gender": "Male",
+            "group": "Mr Leeman",
+            "email": "BB@treeroad.edu"
+        },
+        {
+            "UUID": 8,
+            "surname": "Teel",
+            "forename": "Nichol",
+            "DOB": [
+                12,
+                1,
+                2001
+            ],
+            "address": "1470 S Washington St, North Attleboro MA 2760",
+            "number": "07381807365",
+            "gender": "Male",
+            "group": "Mr Sporn",
+            "email": "NT@treeroad.edu"
+        },
+        {
+            "UUID": 9,
+            "surname": "Witherite",
+            "forename": "Lien",
+            "DOB": [
+                14,
+                12,
+                2002
+            ],
+            "address": "4133 Veterans Memorial Drive, Batavia NY 14020",
+            "number": "07755834901",
+            "gender": "Male",
+            "group": "Ms Cummings",
+            "email": "LW@treeroad.edu"
+        },
+        {
+            "UUID": 10,
+            "surname": "Baggs",
+            "forename": "Mitsue",
+            "DOB": [
+                22,
+                3,
+                2010
+            ],
+            "address": "42 Fairhaven Commons Way, Fairhaven MA 2719",
+            "number": "07157178514",
+            "gender": "Female",
+            "group": "Mrs Weiner",
+            "email": "MB@treeroad.edu"
+        },
+        {
+            "UUID": 11,
+            "surname": "Lingerfelt",
+            "forename": "Gilbert",
+            "DOB": [
+                28,
+                9,
+                2009
+            ],
+            "address": "300 Colony Place, Plymouth MA 2360",
+            "number": "07267852873",
+            "gender": "Female",
+            "group": "Mrs Staples",
+            "email": "GL@treeroad.edu"
+        },
+        {
+            "UUID": 12,
+            "surname": "Kukowski",
+            "forename": "Tarah",
+            "DOB": [
+                5,
+                3,
+                2004
+            ],
+            "address": "2055 Niagara Falls Blvd, Amherst NY 14228",
+            "number": "07893016872",
+            "gender": "Female",
+            "group": "Mr Smith",
+            "email": "TK@treeroad.edu"
+        },
+        {
+            "UUID": 13,
+            "surname": "Dimitri",
+            "forename": "Louis",
+            "DOB": [
+                26,
+                5,
+                2010
+            ],
+            "address": "297 Grant Avenue, Auburn NY 13021",
+            "number": "07390634126",
+            "gender": "Female",
+            "group": "Mr Leeman",
+            "email": "LD@treeroad.edu"
+        },
+        {
+            "UUID": 14,
+            "surname": "Avitia",
+            "forename": "Zona",
+            "DOB": [
+                17,
+                10,
+                2003
+            ],
+            "address": "280 Washington Street, Hudson MA 1749",
+            "number": "07405503748",
+            "gender": "Female",
+            "group": "Ms Smith",
+            "email": "ZA@treeroad.edu"
+        },
+        {
+            "UUID": 15,
+            "surname": "Locker",
+            "forename": "Roseanne",
+            "DOB": [
+                12,
+                7,
+                2010
+            ],
+            "address": "1105 Boston Road, Springfield MA 1119",
+            "number": "07363835743",
+            "gender": "Female",
+            "group": "Mr Sporn",
+            "email": "RL@treeroad.edu"
+        },
+        {
+            "UUID": 16,
+            "surname": "Marsala",
+            "forename": "Terrence",
+            "DOB": [
+                13,
+                10,
+                2010
+            ],
+            "address": "700 Oak Street, Brockton MA 2301",
+            "number": "07736060779",
+            "gender": "Female",
+            "group": "Mrs Staples",
+            "email": "TM@treeroad.edu"
+        },
+        {
+            "UUID": 17,
+            "surname": "Locker",
+            "forename": "Roseanne",
+            "DOB": [
+                28,
+                7,
+                2008
+            ],
+            "address": "352 Palmer Road, Ware MA 1082",
+            "number": "07681353986",
+            "gender": "Female",
+            "group": "Mr Smith",
+            "email": "RL@treeroad.edu"
+        },
+        {
+            "UUID": 18,
+            "surname": "Autrey",
+            "forename": "Sharee",
+            "DOB": [
+                8,
+                1,
+                2008
+            ],
+            "address": "137 Teaticket Hwy, East Falmouth MA 2536",
+            "number": "07374006719",
+            "gender": "Female",
+            "group": "Ms Cummings",
+            "email": "SA@treeroad.edu"
+        },
+        {
+            "UUID": 19,
+            "surname": "Deschamps",
+            "forename": "Lorraine",
+            "DOB": [
+                8,
+                12,
+                2005
+            ],
+            "address": "777 Brockton Avenue, Abington MA 2351",
+            "number": "07285464090",
+            "gender": "Male",
+            "group": "Mrs Staples",
+            "email": "LD@treeroad.edu"
+        },
+        {
+            "UUID": 20,
+            "surname": "Johnson",
+            "forename": "Boris",
+            "DOB": [
+                3,
+                2,
+                1999
+            ],
+            "address": "11 Downing Street",
+            "number": "07480751222",
+            "gender": "Male",
+            "group": "Ms Cummings",
+            "email": "BJ@treeroad.edu"
+        },
+        {
+            "UUID": 21,
+            "surname": "Corbin",
+            "forename": "Jeremy",
+            "DOB": [
+                5,
+                12,
+                1873
+            ],
+            "address": "81 Horse Lane California",
+            "number": "07480751223",
+            "gender": "Male",
+            "group": "Mr Smith",
+            "email": "JC@treeroad.edu"
+        }
+    ]
+}
